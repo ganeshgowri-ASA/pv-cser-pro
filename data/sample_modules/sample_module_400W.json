@@ -1,0 +1,24 @@
+{
+  "manufacturer": "Sample Solar",
+  "model_name": "PV-400M",
+  "serial_number": "SAMPLE-001",
+  "pmax_stc": 400.0,
+  "voc_stc": 48.5,
+  "isc_stc": 10.5,
+  "vmp_stc": 40.8,
+  "imp_stc": 9.8,
+  "temp_coeff_pmax": -0.35,
+  "temp_coeff_voc": -0.28,
+  "temp_coeff_isc": 0.05,
+  "module_area": 1.92,
+  "cell_type": "mono-Si",
+  "num_cells": 72,
+  "cell_area": 0.0243,
+  "nmot": 43.0,
+  "noct": 43.0,
+  "metadata": {
+    "data_source": "Sample data for demonstration",
+    "created_date": "2024-01-01",
+    "bifacial": false
+  }
+}
