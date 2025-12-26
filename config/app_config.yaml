@@ -1,0 +1,52 @@
+# PV-CSER Pro Application Configuration
+
+# Application Settings
+app_name: "PV-CSER Pro"
+app_version: "1.0.0"
+debug_mode: false
+
+# Data Settings
+max_upload_size_mb: 200
+supported_file_types:
+  - ".csv"
+  - ".xlsx"
+  - ".xls"
+
+# IEC 61853 Constants
+default_irradiance_stc: 1000.0  # W/m²
+default_temperature_stc: 25.0   # °C
+default_am_stc: 1.5            # Air mass
+
+# Standard Irradiance Levels (IEC 61853-1)
+standard_irradiance_levels:
+  - 100
+  - 200
+  - 400
+  - 600
+  - 800
+  - 1000
+  - 1100
+
+# Standard Temperature Levels (IEC 61853-1)
+standard_temperature_levels:
+  - 15
+  - 25
+  - 50
+  - 75
+
+# Visualization Settings
+chart_height: 500
+colorscale: "YlOrRd"
+
+# Export Settings
+pdf_page_size: "A4"
+excel_engine: "xlsxwriter"
+
+# Database Settings (overridden by environment variables)
+database:
+  host: "localhost"
+  port: 5432
+  database: "pv_cser_pro"
+  username: "postgres"
+  password: ""
+  ssl_mode: "prefer"
