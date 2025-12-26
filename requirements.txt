@@ -22,6 +22,7 @@ reportlab==4.0.9
 # Database
 psycopg2-binary==2.9.9
 sqlalchemy==2.0.25
+pydantic==2.5.3
 
 # PV Specific Libraries
 pvlib==0.10.3
